@@ -1,0 +1,47 @@
+.header {
+    background-color: rgb(170, 166, 221);
+    color: rgb(0, 0, 0);
+    justify-content: center;
+    display: flex;
+}
+
+.headerContainer {
+    width: 100%;
+    max-width: 1024px;
+    margin: 20px 0px 100px 0px
+}
+
+.headerList {
+    display: flex;
+    gap: 70px
+}
+
+.headerListItems {
+    display: flex;
+    align-items: center;
+    gap: 10px
+}
+
+.headerListItems.active {
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.headerDesc{
+    margin:20px 0px;
+}
+
+.headerBtn{
+    background-color: rgb(10, 4, 48);
+    color: whitesmoke;
+}
+
+.headerSearch{
+    height: 30px;
+    background-color: white;
+    border: 3px solid yellowgreen;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
