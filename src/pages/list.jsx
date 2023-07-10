@@ -1,8 +1,10 @@
-import React from 'react'
+import React from 'react';
+import NavBar from '../Components/navbar/navbar';
+import Headers from '../Components/header/header';
 
 function list() {
   return (
-    <div>list</div>
+    <div><NavBar/><Headers type='list'/></div>
   )
 }
 
