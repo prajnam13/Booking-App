@@ -110,3 +110,12 @@
     cursor: pointer;
     background-color: white;
 }
+
+.optionCounterButton:disabled{
+    /* background-color: rgb(197, 196, 196); */
+    cursor: not-allowed;
+}
+
+.headerContainer.listMode{
+    margin:20px 0px 100px 0px;
+}
